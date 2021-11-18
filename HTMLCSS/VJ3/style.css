@@ -8,20 +8,20 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    outline: dashed 1px black;
+    /*outline: dashed 1px black;*/
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(98, 30, 255));
     color: navy;
     font-family: "Arial", sans-serif;
 }
 
 .explanation {
-    outline: dashed 1px black;
+    /*outline: dashed 1px black;*/
     width: 50%;
     float: left;
 }
 
 .participation {
-    outline: dashed 1px black;
+    /*outline: dashed 1px black;*/
     width: 45%; 
     float: left;
     position: relative;
@@ -30,20 +30,20 @@ body {
 }
 
 .supporting {
-    outline: dashed 1px black;
+    /*outline: dashed 1px black;*/
     padding-left: 1%;
     padding-top: 1%;
     position: relative;
 }
 
 .benefits {
-    outline: dashed 1px black;
+    /*outline: dashed 1px black;*/
     width: 50%; 
     float: left;
 }
 
 .requirements {
-    outline: dashed 1px black;
+    /*outline: dashed 1px black;*/
     width: 45%; 
     float: left;
     position: relative;
