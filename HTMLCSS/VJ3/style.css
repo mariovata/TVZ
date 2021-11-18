@@ -1,0 +1,115 @@
+html {
+    display: table;
+    margin: auto;
+    width: 60%;
+    background: rgba(0, 0, 0, 0) url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble.png")
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    outline: dashed 1px black;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(98, 30, 255));
+    color: navy;
+    font-family: "Arial", sans-serif;
+}
+
+.explanation {
+    outline: dashed 1px black;
+    width: 50%;
+    float: left;
+}
+
+.participation {
+    outline: dashed 1px black;
+    width: 45%; 
+    float: left;
+    position: relative;
+    left: 20px;
+    
+}
+
+.supporting {
+    outline: dashed 1px black;
+    padding-left: 1%;
+    padding-top: 1%;
+    position: relative;
+}
+
+.benefits {
+    outline: dashed 1px black;
+    width: 50%; 
+    float: left;
+}
+
+.requirements {
+    outline: dashed 1px black;
+    width: 45%; 
+    float: left;
+    position: relative;
+    left: 20px;
+    
+    
+}
+
+/*
+.design-selection {
+    position: absolute;
+    
+    filter: opacity(0)
+    
+    
+}
+
+.sidebar {
+    position: absolute;
+    top: 0px;
+    filter: opacity(0)
+            
+}
+*/
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+a {
+    color: #61a100;
+    background-color: azure;
+  }
+
+a:visited {
+    color: pink;
+  }
+
+a:hover {
+    color: chocolate;
+}
+
+a:active {
+    color: rgb(104, 253, 153);
+}
+
+p {
+    word-spacing: 1px;
+}
+
+.requirements a{
+    color: #a10000;
+    background-color: rgb(253, 105, 142);
+}
+
+.requirements a:visited {
+    color: rgb(17, 88, 97);
+  }
+
+.requirements a:hover {
+    color: rgb(144, 30, 210);
+}
+
+.requirements a:active {
+    color: rgb(253, 206, 104);
+}
+
+
