@@ -1,0 +1,84 @@
+#main {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.navigation, .nav-list {
+    background-color: #3669c9;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#header > h1 {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+#header > h1 > span {
+    position: relative;
+    left: -20em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.home {
+    margin-bottom: 0px;
+    position: relative;
+    width: fit-content;
+    
+    top: 0.7em;
+    text-align: match-parent;
+    float: left;
+}
+
+.menu-item-about {
+    position: relative;
+    text-align: left;
+    top: -2em;
+    width: fit-content;
+    
+    left: 4em;
+    height: fit-content;
+            
+}
+
+.menu-item-about > a > span {
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.menu-item-contact > a > span {
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.menu-item-contact {
+    position: relative;
+    text-align: left;
+    top: -4.3em;
+    width: fit-content;
+    height: fit-content;
+    
+    left: 10em;            
+}
+
+.nav-list {
+    height: 80px;
+}
+
