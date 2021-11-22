@@ -41,8 +41,8 @@ ul {
     margin-bottom: 0px;
     position: relative;
     width: fit-content;
+    padding-top: 2.5px;
     
-    top: 0.7em;
     text-align: match-parent;
     float: left;
 }
@@ -79,6 +79,83 @@ ul {
 }
 
 .nav-list {
-    height: 80px;
+    height: 40px;
 }
 
+.p1 {
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: 10em;
+}
+
+.p2 {
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: -355px;
+}
+
+.p3 {
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: -870px;
+    margin-right: 1em;
+}
+
+.img1 {
+    position: relative;
+    left: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+.consent {
+    
+    text-align: center;
+    border: solid;
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. 
+    margin-left: -250px; /* Negative half of width. 
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+#header-nav {
+	
+	position: fixed;
+	top: 0;
+	z-index: 1020;
+    width: 100%;
+}
+
+.content {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: white;
+    
+}
+
+#main {
+    background-image: url(slike/PIA12348~orig.jpg);
+}
