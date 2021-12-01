@@ -1,0 +1,154 @@
+@media (min-width:800px){
+body {
+    background-color: #dc143c;
+    color: white;
+
+}
+h3 {
+    text-align: center;
+}
+
+#head > h3:nth-child(2) {
+    text-align: left;
+   }
+   
+
+#head {
+    border: solid 1px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+#slik {
+    float: left;
+    padding: 4px;
+}
+
+#content {
+    width: 1000px;
+    
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+#con1 {
+    border: solid 1px;
+    width: 40%;
+    float: left;
+    padding: 5px;
+}
+
+#con2{
+    font-style: italic;
+}
+
+#con2 > p:nth-child(1) {
+    float: right;
+    border: solid 1px;
+    width: 25%;
+}
+
+#con_bot {
+    margin-top: 10px;
+    
+    float: left;
+    width: 30%;
+   }
+
+#img2 > img:nth-child(1) {
+    float: right;
+    border: solid 1px;
+    padding: 5px;
+   }
+
+#img1 > img:nth-child(1) {
+    float: right;
+    margin-bottom: 15px;
+    border: solid 1px;
+    padding: 5px;
+   }
+   
+#con2 > p:nth-child(1) {
+    float: right;
+    border: solid 1px;
+    width: 25%;
+    margin-top: 0;
+    width: 40%;
+    padding: 5px;
+    min-height: 340px;
+}
+   
+#con3, #con4, #con5 {
+    border: solid 1px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+@media (max-width:799px){
+    
+    body {
+        background-color:#2196F3;
+        color: white;
+    }
+    @media (max-width:798px) and (min-width:698px){
+        body {
+        background-color:#774DF6;
+        }
+    }
+
+    #head > h3:nth-child(2) {
+        text-align: left;
+       }
+       
+
+    h3 {
+        text-align: center;
+    }
+    #head {
+        border: solid 1px;
+        padding: 5px;
+    }
+    #slik {
+        float: right;
+        margin: 2px;
+    }
+    #con1, #con2 {
+        border: solid 1px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    #head {
+        border: solid 1px;
+        padding: 5px;
+    }
+    #con3,#con4,#con5 {
+        width: 28%;
+        border: solid 1px;
+        float: left;
+        padding: 5px;
+        margin: 5px;
+       }
+    #img1 > img:nth-child(1) {
+        border: solid 1px;
+        padding: 5px;
+        float: right;
+        width: 45%;
+       }
+    #img2 > img:nth-child(1) {
+        border: solid 1px;
+        padding: 5px;
+        float: left;
+        width: 46%;
+       }  
+    #con2{
+           font-style: italic;
+    }
+}
