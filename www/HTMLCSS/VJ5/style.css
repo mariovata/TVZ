@@ -55,7 +55,7 @@ h3 {
 
 #con_bot {
     margin-top: 10px;
-    
+    clear: both;
     float: left;
     width: 30%;
    }
