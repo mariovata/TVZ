@@ -159,7 +159,7 @@ body >#mobile >  article:nth-child(3) > form:nth-child(9) > input:nth-child(13) 
        }
          
        
-    article > h1 {
+    #con > #con1 > h1 {
         color: red;
         text-align: center;
         padding: 10px;
@@ -185,13 +185,15 @@ body >#mobile >  article:nth-child(3) > form:nth-child(9) > input:nth-child(13) 
         text-align: center;
         padding-top: 15px;
         margin-top: 15px;
+        position: relative;
+        bottom: -800px;
     }
     
-    #desktop > footer:nth-child(5) > h3:nth-child(1) {
+    #desktop > footer > h3 {
         display: inline;
        }
     
-    #desktop > footer:nth-child(5) > p:nth-child(2) {
+    #desktop > footer > p {
         display: inline;
        }
     
@@ -200,7 +202,7 @@ body >#mobile >  article:nth-child(3) > form:nth-child(9) > input:nth-child(13) 
        }
           
     
-    article > p {
+    #con > #con1,#con2 > p {
         padding: 10px;
     }
           
@@ -241,7 +243,7 @@ body >#mobile >  article:nth-child(3) > form:nth-child(9) > input:nth-child(13) 
         margin: 30px auto;
        }
     
-    #desktop > article:nth-child(3) > table:nth-child(5) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+    #tt{
         text-align: center;
         color: white;
         background-color: black;
@@ -256,7 +258,7 @@ body >#mobile >  article:nth-child(3) > form:nth-child(9) > input:nth-child(13) 
     img.slk:nth-child(8) {
         float: right;
        }
-    #desktop > article:nth-child(3) > hr:nth-child(10) {
+    #desktop > #con > article:nth-child(3) > hr:nth-child(10) {
         clear: both;
         margin: 20px;
        }
@@ -269,6 +271,39 @@ body >#mobile >  article:nth-child(3) > form:nth-child(9) > input:nth-child(13) 
         list-style: url(slike/icon.jpg);
       } 
              
-             
-             
+    #con {
+        width: 50%;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 30px;
+       }
+    
+    #con1 {
+        background-color: white;
+        position: absolute;
+        width: 55%;
+       }
+     
+    #con2 {
+        width: 35%;
+        position: absolute;
+        right: 0px;
+        background-color: white;
+       }
+          
+    #con1 > table:nth-child(5) {
+        width: 90%;
+        margin: 0 auto;
+       }
+    
+
+    
+    #con1 > hr:nth-child(4) {
+        clear: both;
+       }
+          
+    #con1 > img:nth-child(2) {
+        float: left;
+       }
+                   
 }
