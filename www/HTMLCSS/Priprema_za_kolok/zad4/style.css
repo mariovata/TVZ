@@ -1,0 +1,274 @@
+
+* {
+    box-sizing: border-box;
+  } 
+ 
+@media (max-width: 799px) {
+    
+#desktop {
+    display: none;
+}    
+
+#header {
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+
+body > #mobile > article:nth-child(2) > img:nth-child(1) {
+    width: 100%;
+    margin-top: 15px;
+   }
+
+.slk {
+    width: 100%;
+}
+
+body {
+    background-image: url(slike/bg-batman.jpg);
+    background-repeat:repeat;
+    margin: 0;
+}
+
+article {
+    background-color: white;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body > #mobile > article:nth-child(2) > p:nth-child(2) {
+    position: absolute;
+    top: 25px;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+   }
+
+body > #mobile >  article:nth-child(2) {
+    background-color: inherit;
+   }
+     
+   
+article > h1 {
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+h4 {
+    color: red;
+}
+
+hr {
+    border-style: dashed;
+    width: 90%;
+}
+
+form {
+    padding: 15px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+body > #mobile >  footer:nth-child(4) > h3:nth-child(1) {
+    display: inline;
+   }
+body > #mobile >  footer:nth-child(4) > p:nth-child(2) {
+    display: inline;
+   }
+
+article > p {
+    padding: 10px;
+}
+      
+body > #mobile > article:nth-child(3) > form:nth-child(9) > input:nth-child(14) {
+    position: relative;
+    left: -8px;
+    border: solid 1px;
+    padding: 5px;
+   }
+
+body >#mobile >  article:nth-child(3) > form:nth-child(9) > input:nth-child(13) {
+    border: solid 1px;
+    padding: 5px;
+   }
+}
+
+@media (min-width:800px){
+
+    #mobile{
+        display: none;
+    }
+    #header {
+        color: white;
+        background-color: black;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       }
+
+    #header > h3:nth-child(2),h1:nth-child(1) {
+        width: 50%;
+        margin: 0 auto;
+       }
+          
+    
+    body > #desktop > article:nth-child(2) > img:nth-child(1) {
+        width: 100%;
+        margin-top: 15px;
+       }
+    
+    .slk {
+        width: 25%;
+    }
+    
+    body {
+        background-image: url(slike/bg-batman.jpg);
+        background-repeat:repeat;
+        margin: 0;
+    }
+    
+    article {
+        background-color: white;
+        position: relative;
+        
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    body > #desktop > article:nth-child(2) > p:nth-child(2) {
+        position: absolute;
+        top: 25px;
+        color: white;
+        background-color: gray;
+        padding: 10px;
+       }
+    
+    body > #desktop > article:nth-child(2) {
+        background-color: inherit;
+       }
+         
+       
+    article > h1 {
+        color: red;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    h4 {
+        color: red;
+    }
+    
+    hr {
+        border-style: dashed;
+        width: 90%;
+    }
+    
+    form {
+        padding: 15px;
+    }
+    
+    footer {
+        background-color: red;
+        color: white;
+        min-height: 50px;
+        text-align: center;
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+    
+    #desktop > footer:nth-child(5) > h3:nth-child(1) {
+        display: inline;
+       }
+    
+    #desktop > footer:nth-child(5) > p:nth-child(2) {
+        display: inline;
+       }
+    
+    #desktop > article:nth-child(3) {
+        margin-top: 25px;
+       }
+          
+    
+    article > p {
+        padding: 10px;
+    }
+          
+    body > #desktop > article:nth-child(3) > form:nth-child(9) > input:nth-child(14) {
+        position: relative;
+        left: -8px;
+        border: solid 1px;
+        padding: 5px;
+       }
+    
+    body > #desktop > article:nth-child(3) > form:nth-child(9) > input:nth-child(13) {
+        border: solid 1px;
+        padding: 5px;
+       }
+    
+    #desktop > article:nth-child(3) {
+        width: 30%;
+        position: relative;
+        right: 285px;
+       }
+    
+    #desktop > article:nth-child(3) {
+        width: 27.6%;
+        position: relative;
+        right: 285px;
+       }
+
+    #desktop > article:nth-child(4) {
+        width: 20%;
+        position: absolute;
+        left: 755px;
+        right: 0;
+        top: 545px;
+       }
+    
+    #desktop > article:nth-child(3) > table:nth-child(5) {
+        width: 90%;
+        margin: 30px auto;
+       }
+    
+    #desktop > article:nth-child(3) > table:nth-child(5) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+        text-align: center;
+        color: white;
+        background-color: black;
+       }
+    #desktop > article:nth-child(3) {
+        min-height: 650px;
+       }
+    
+    #desktop > article:nth-child(3) > img:nth-child(2) {
+        float: left;
+       }
+    img.slk:nth-child(8) {
+        float: right;
+       }
+    #desktop > article:nth-child(3) > hr:nth-child(10) {
+        clear: both;
+        margin: 20px;
+       }
+    #desktop > article:nth-child(3) > hr:nth-child(4) {
+        clear: both;
+       }
+
+    
+    ul{
+        list-style: url(slike/icon.jpg);
+      } 
+             
+             
+             
+}
