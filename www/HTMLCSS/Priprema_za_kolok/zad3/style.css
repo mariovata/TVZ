@@ -111,4 +111,8 @@ div.box:nth-child(5) > label:nth-child(4) > input:nth-child(1) {
     width: 100px;
     height: 30px;
    }
+
+body > form:nth-child(2) > fieldset:nth-child(1) {
+    display: contents;
+   }
    
