@@ -1,0 +1,114 @@
+html {
+    background-image: url(slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(slike/gradient.png);
+}
+
+body > header:nth-child(1) > a:nth-child(2) {
+    float: left;
+    margin: 15px;
+   }
+
+body > header:nth-child(1) > a:nth-child(4) {
+    float: right;
+    margin: 15px;
+   }
+
+body > header:nth-child(1) > img:nth-child(3) {
+    float: right;
+   }
+
+body > header:nth-child(1) > img:nth-child(1) {
+    float: left;
+   }
+   
+           
+
+header {
+    background-image: url(slike/gradient.png);
+    min-height: 50px;
+}
+
+
+.box {
+    border: black solid 1px;
+    background-color: lightblue;
+    display: block;
+    width: 100%;
+    margin: 25px;
+    min-height: 150px;
+    max-height: 250px;
+    
+}
+
+#cont {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.up-t {
+    position: relative;
+    top: -15px;
+    color: white;
+    background-color: blue;
+    padding: 7px;
+    height: fit-content;
+    width: fit-content;
+    right: -25px;
+}
+
+.up-t > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.box > label {
+    margin-top:  5px;
+    margin-bottom:  10px;
+    margin-left: 15px;
+    display: block;
+}
+
+#a {
+    display: inline;
+   }
+
+.box > p {
+    display: inline;
+    margin: 25px;
+}
+
+#barrier {
+    height: 40px;
+   }
+
+#area {
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 90%;
+    min-height: 90%;
+    resize: none;
+    margin-left: 15px;
+   }
+   
+
+div.box:nth-child(5) > label:nth-child(4) > input:nth-child(1) {
+    margin-left: 15px;
+   }
+ 
+   
+.button > input:nth-child(1) {
+    margin-left: 25px;
+    width: 100px;
+    height: 30px;
+   }
+   
