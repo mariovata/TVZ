@@ -82,6 +82,21 @@ html, body {
     left: 0;
     right: 0;
 }
+td {
+border-bottom: 1px solid #ddd;
+padding: 15px;
+}
+
+.con2 {
+    min-height: 450px;
+}
+
+.img4 {
+    border-radius: 15px;
+    margin-top: 50px;
+    width: 100%;
+}
+
 
 @media (min-width: 800px){
 
@@ -108,6 +123,19 @@ html, body {
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
+}
+
+#navscroll {
+    position: fixed;
+    background-color: #333;
+    width: 380px;
+    padding: 15px;
+    right: 0;
+}
+
+.navscroll_el {
+    display: block;
+    margin-bottom: 25px;
 }
 
 #header {
@@ -273,6 +301,11 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+
+    #navscroll {
+        display:none;
+    }
+
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
@@ -380,6 +413,7 @@ p {
     
     #main {
         background-image: url(slike/PIA12348~orig.jpg);
+        background-size: cover;
     }
     
     #con_top {
@@ -425,5 +459,13 @@ p {
 
     .img2 {
         width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .overflow-x{
+        overflow-x: auto;
     }
   }
