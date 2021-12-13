@@ -22,7 +22,24 @@
   }
 
 @media (min-width: 800px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
     
+  }
 
 #main {
     margin-left: 0;
@@ -176,5 +193,150 @@ ul {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
+    }
+
+    .title {
+        text-align: center;
+       }
+       
+
+    #main {
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    
+    #header {
+        min-height: 40px;
+        background-color: black;
+       }
+           
+    .navigation, .nav-list {
+        background-color: #3669c9;
+        margin-top: 0px;
+        
+    }
+    
+    #header > h1 {
+        margin-left: 350px;
+        color: white;
+        margin: 0px;
+        
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+    
+    ul {
+        list-style: none;
+        
+    }
+    
+    .home {
+        display: inline;
+    }
+    
+    .menu-item-home {
+        display: inline;
+    }
+    
+    .menu-item-about {
+       display: inline;
+                
+    }
+    
+    .menu-item-about > a > span {
+        font-size: 2em;
+        font-family: sans-serif;
+    }
+    
+    .menu-item-contact > a > span {
+        font-size: 2em;
+        font-family: sans-serif;
+    }
+    
+    .menu-item-contact {
+       display: inline;          
+    }
+    
+    .nav-list {
+        height: 50px;
+    }
+    
+    
+    .img1 {
+        max-width: 400px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    #header-nav {
+        
+        position: fixed;
+        top: 0;
+        z-index: 1020;
+        width: 100%;
+    }
+    
+    .content {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+    
+    #main {
+        background-image: url(slike/PIA12348~orig.jpg);
+    }
+    
+    #con_top {
+        min-height: 500px;
+    }
+    
+    #spacer {
+        min-height: 200px;
+    }
+    
+    .home > img:nth-child(1) {
+        display: inline;
+        top: 5px;
+        position: relative;
+       }
+       
+    .menu-item-about > a > span {
+        font-size: 2em;
+        font-family: sans-serif;
+        margin: 20px;
+    }
+    .conbox {
+        background-color: white;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    
+    .conbox1{
+        min-height: 550px;
+        
+    }
+    
+    .img_mid{
+        display: inline;
+        width: 33%;
+        padding: 15px;
+    }
+    
+    #img_mid {
+        width: fit-content;
+        margin: 0 auto;
     }
   }
