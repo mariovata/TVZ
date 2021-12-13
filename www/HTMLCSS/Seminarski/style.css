@@ -70,6 +70,19 @@ html, body {
     height: 50px; 
   }
 
+.footer-links {
+    text-decoration: none;
+}
+
+.button {
+    position: absolute;
+    width: 100px;
+    margin: 0 auto;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+}
+
 @media (min-width: 800px){
 
     .col-1 {width: 8.33%;}
@@ -126,7 +139,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+li > a:hover {
     text-decoration: underline;
     color: white;
 }
@@ -173,6 +186,24 @@ ul {
     width: 100%;
     display: block;
     margin: 0 auto;
+    border-radius: 15px;
+}
+
+.img2 {
+    max-width: 400px;
+    width: 32%;
+    border-radius: 15px; 
+}
+
+.cent {
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+p {
+    max-height: 300px;
+    overflow: auto;
 }
 
 
@@ -219,12 +250,14 @@ ul {
     background-color: white;
     padding: 15px;
     border-radius: 25px;
+    position: relative;
 }
 
 .conbox1{
-    min-height: 550px;
+    min-height: 600px;
     
 }
+
 
 .img_mid{
     display: inline;
@@ -388,5 +421,9 @@ ul {
     #img_mid {
         width: fit-content;
         margin: 0 auto;
+    }
+
+    .img2 {
+        width: 100%;
     }
   }
