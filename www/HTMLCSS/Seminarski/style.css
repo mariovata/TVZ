@@ -151,7 +151,65 @@ a.fa:nth-child(7) {
     float: right;
   }
   
-   
+
+  aside{
+    position: absolute;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 260px;
+    margin-left: 15px;
+    background-color: white;
+    min-height: 230px;
+    width: 368px;
+}
+
+#sidebar{
+    width: 330px;
+    position: relative;
+    left: 0px;
+    top: 2px;
+}
+
+.sec1{
+    position: absolute;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 260px;
+    margin-left: 450px;
+    background-color: white;
+    min-height: 230px;
+    width: 1000px;
+}
+
+.sec2{
+    position: absolute;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 580px;
+    margin-left: 450px;
+    background-color: white;
+    min-height: 230px;
+    width: 1000px;
+}
+
+.sec3{
+    position: absolute;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 900px;
+    margin-left: 450px;
+    background-color: white;
+    min-height: 230px;
+    width: 1000px;
+} 
+
+.ul-link {
+    color: black;
+}
+
+.ul-link:hover {
+    color: #333;
+}
 
 
 @media (min-width: 800px){
