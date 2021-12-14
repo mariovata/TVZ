@@ -216,6 +216,11 @@ a.fa:nth-child(7) {
     text-decoration: underline;
 }
 
+.switch {
+    float: right;
+    margin-top: 17px;
+}
+
 @media (min-width: 800px){
 
     .col-1 {width: 8.33%;}
@@ -591,5 +596,17 @@ p {
 
     .overflow-x{
         overflow-x: auto;
+    }
+
+    .cont_ico {
+        position: absolute;
+        padding: 100px 0;
+        right: 45px;
+    }
+    
+    .cont_ico2 {
+        position: absolute;
+        padding: 100px 0;
+        left: 45px;
     }
   }
