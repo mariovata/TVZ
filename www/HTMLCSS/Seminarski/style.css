@@ -156,7 +156,7 @@ a.fa:nth-child(7) {
     position: absolute;
     border-radius: 15px;
     padding: 5px;
-    margin-top: 260px;
+    margin-top: 0px;
     margin-left: 15px;
     background-color: white;
     min-height: 230px;
@@ -164,7 +164,7 @@ a.fa:nth-child(7) {
 }
 
 #sidebar{
-    width: 330px;
+    width: 100%;
     position: relative;
     left: 0px;
     top: 2px;
@@ -174,7 +174,7 @@ a.fa:nth-child(7) {
     position: absolute;
     border-radius: 15px;
     padding: 10px;
-    margin-top: 260px;
+    margin-top: 0px;
     margin-left: 450px;
     background-color: white;
     min-height: 230px;
@@ -185,7 +185,7 @@ a.fa:nth-child(7) {
     position: absolute;
     border-radius: 15px;
     padding: 10px;
-    margin-top: 580px;
+    margin-top: 300px;
     margin-left: 450px;
     background-color: white;
     min-height: 230px;
@@ -196,7 +196,7 @@ a.fa:nth-child(7) {
     position: absolute;
     border-radius: 15px;
     padding: 10px;
-    margin-top: 900px;
+    margin-top: 570px;
     margin-left: 450px;
     background-color: white;
     min-height: 230px;
@@ -211,6 +211,10 @@ a.fa:nth-child(7) {
     color: #333;
 }
 
+.link {
+    color: blue;
+    text-decoration: underline;
+}
 
 @media (min-width: 800px){
 
