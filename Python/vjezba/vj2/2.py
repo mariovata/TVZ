@@ -7,7 +7,6 @@ def main():
 
     rec = rec.strip(".")
 
-
     while '  ' in rec:
         rec = rec.replace('  ', ' ')
 
