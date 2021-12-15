@@ -1,3 +1,5 @@
+import sys
+
 def main():
     rec = input("Unos: ")
 
@@ -24,13 +26,13 @@ def main():
         max_rec = max_rec[::-1]
         max_rec = max_rec.replace("?", "lj")
         print(rec1, max_rec, rec3 + ".")
-        exit()
+        sys.exit()
     if len(max_rec) < len(rec3):
         max_rec = rec3
         max_rec = max_rec[::-1]
         max_rec = max_rec.replace("?", "lj")
         print(rec1, rec2, max_rec + ".")
-        exit()
+        sys.exit()
 
     max_rec = max_rec[::-1]
     max_rec = max_rec.replace("?", "lj")
