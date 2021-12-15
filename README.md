@@ -4,3 +4,6 @@
 
 [HTML Pripreme Web](https://lively-hill-0dadebe10.azurestaticapps.net/)
 
+# Python
+
+[![DeepSource](https://deepsource.io/gh/mariovata/TVZ.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/mariovata/TVZ/?ref=repository-badge)
