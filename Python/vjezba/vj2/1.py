@@ -1,6 +1,7 @@
 def unos():
     """
-    Unos adresse, uzimanje zadnja dva broja pretvaranje u int i na kraju vracanje
+    Unos adrese, provjera i vracanje kao int
+    :return:
     """
     a = 1
     while a == 1:
