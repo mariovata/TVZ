@@ -6,7 +6,7 @@ def main():
         rec = input("Unos, tocka na kraju: ")
 
     rec = rec.strip(".")
-    empt = rec.count(' ')
+
 
     while '  ' in rec:
         rec = rec.replace('  ', ' ')
