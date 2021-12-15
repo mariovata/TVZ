@@ -1,4 +1,7 @@
 def unos():
+    """
+    Unos adresse, uzimanje zadnja dva broja pretvaranje u int i na kraju vracanje
+    """
     a = 1
     while a == 1:
         adr1 = input("Unesite adresu: ")

@@ -2,6 +2,10 @@ import random
 
 
 def human():
+    """
+    Human input and error checking
+    :return:
+    """
     user_c = 0
 
     # while user_c != 1 and user_c != 2 and user_c != 3:
@@ -20,11 +24,21 @@ def human():
 
 
 def robot():
+    """
+    Robot AI
+    :return:
+    """
     computer_c = random.randint(1, 3)
     return computer_c
 
 
 def check(user_c, robot_c):
+    """
+    Game Logic
+    :param user_c:
+    :param robot_c:
+    :return:
+    """
     if user_c == robot_c:
         print("The result is a Draw!")
     if user_c == 1 and robot_c == 2:
@@ -42,6 +56,12 @@ def check(user_c, robot_c):
 
 
 def conversion(user_c, computer_c):
+    """
+    Converting numbers to int strings
+    :param user_c:
+    :param computer_c:
+    :return:
+    """
     if user_c == 1:
         user_c = "Rock"
     elif user_c == 2:
