@@ -4,13 +4,17 @@ import random
 def human():
     user_c = 0
 
-    while user_c != 1 and user_c != 2 and user_c != 3:
+    # while user_c != 1 and user_c != 2 and user_c != 3:
+    while user_c not in (1, 2, 3):
         user_c = input("Choose: [R]ock, [P]aper, [S]cissors! ")
-        if user_c == "R" or user_c == "r":
+        # if user_c == "R" or user_c == "r":
+        if user_c in ("R", "r"):
             user_c = 1
-        if user_c == "P" or user_c == "p":
+        # if user_c == "P" or user_c == "p":
+        if user_c in ("P", "p"):
             user_c = 2
-        if user_c == "S" or user_c == "s":
+        # if user_c == "S" or user_c == "s":
+        if user_c in ("S", "s"):
             user_c = 3
     return user_c
 
