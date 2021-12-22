@@ -1,0 +1,36 @@
+.navi {
+  width: 25%;
+  background-color: var(--blue);
+}
+
+.linkcolor {
+  color: white;
+  text-align: center;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: 0;
+  border: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navi:hover {
+  background: url("../../assets/img/external-content.duckduckgo.com.jpg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-color: red;
+}
+
+@media (max-width: 799px) {
+  .navi {
+    width: 100%;
+    border-bottom: white 1px solid;
+  }
+}
+
