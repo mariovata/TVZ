@@ -1,0 +1,49 @@
+.round {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: red;
+    display: block;
+    padding: .5rem 1rem;
+    color: white !important;
+    text-decoration: none;
+    transition: 1.25s;
+    width: 25%;
+    margin: 10px;
+}
+
+.fix1 {
+    width: 100%;
+}
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+i {
+    color: white;
+    transition: linear 1.25s;
+}
+
+li:hover > a > i{
+    color: #00BCD4;
+}
+
+.spaceing_marg {
+    margin-right: 10px;
+}
+
+
+@media (min-width: 800px){
+
+.round {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: red;
+    display: block;
+    padding: .5rem 1rem;
+    color: white !important;
+    text-decoration: none;
+    transition: 1.25s;
+    width: 100%;
+    margin: 10px;
+}
+}
