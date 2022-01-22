@@ -23,23 +23,22 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <title>Laws of the stars</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-    </style> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Laws of the stars</title> 
 </head>
 <body id="main">
     
-    <div id="header-nav">
+    <!-- ### OLD NAV ### -->
+
+    <!-- <div id="header-nav">
         <div>
             <header id="header">
                 <h1 class="title"><span>Laws of the stars</span></h1>
                 <a href="index-hr.html" class=switch>HR/EN</a>
             </header>
-        </div>
-
+        </div> -->
         
-        <div class="navigation">
+        <!-- <div class="navigation">
                 <ul class="nav-list">
                     <li class="menu-item menu-item-home">
                     <a class="home" href="#">
@@ -56,9 +55,53 @@
                     <span>Contact</span>
                     </a>
                     </li>
+                    <li class="menu-item menu-item-contact
+                    ">
+                    <a href="news/news.html">
+                    <span>News</span>
+                    </a>
+                    </li>
+                    <li class="menu-item menu-item-contact
+                    ">
+                    <a href="shop/shop.html">
+                    <span>Shop</span>
+                    </a>
+                    </li>
                 </ul>
             </div>
+        </div> -->
+        
+    <div style="background-color: black;">
+        <div>
+            <div class="fixed-top">
+                <header id="header">
+                    <h1 class="title"><span class="font-google2">Laws of the stars</span></h1>
+                    <a href="index-hr.html" class=switch>HR/EN</a>
+                </header>
+            </div>
         </div>
+        </div>
+
+        <div style="background-color: aliceblue;">
+        <div class="container-l">
+        <nav class="navbar navbar-expand-lg navbar-light bg-mymenu fixed-top">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="about/about.html">About</a>
+                  <a class="nav-link" href="contact/contact.html">Contact</a>
+                  <a class="nav-link" href="news/news.html">News</a>
+                  <a class="nav-link" href="news/news.html">Shop</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>      
     
     <div id=spacer></div>
 
@@ -68,12 +111,28 @@
         <a href="#third_con" class="navscroll_el">Closest Stars</a>    
     </div>
 
-    <div class="content">
 
+    <!-- ### Test bootstrap ### -->
+
+    <!-- <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-4" style="background-color: rebeccapurple;">
+            Column
+          </div>
+          <div class="col-12 col-sm-4" style="background-color: rebeccapurple;">
+            Column
+          </div>
+          <div class="col-12 col-sm-4" style="background-color: rebeccapurple;">
+            Column
+          </div>
+        </div>
+      </div> -->
+     
+    <div class="container">  
     <div class="row">
-        <div class="col-4" id=con_top>
+        <div class="col-12 col-sm-4" id=con_top>
             <div class="conbox conbox1">
-            <h3 id=firstcon>Introduction to Astronomy</h3>
+            <h3 id=firstcon class="font-google2">Introduction to Astronomy</h3>
             <p>Astronomy (from Greek: ἀστρονομία, literally meaning the science that studies the laws of the stars) is a natural science that studies celestial objects and phenomena. It uses mathematics, physics, and chemistry in order to explain their origin and evolution. Objects of interest include planets, moons, stars, nebulae, galaxies, and comets. Relevant phenomena include supernova explosions, gamma ray bursts, quasars, blazars, pulsars, and cosmic microwave background radiation. More generally, astronomy studies everything that originates beyond Earth's atmosphere. Cosmology is a branch of astronomy that studies the universe as a whole.
                 Astronomy is one of the oldest natural sciences. The early civilizations in recorded history made methodical observations of the night sky.
             </p>
@@ -82,9 +141,9 @@
             </div>
         </div>
 
-        <div class="col-4" id=con_top>
+        <div class="col-12 col-sm-4" id=con_top>
             <div class="conbox conbox1">
-            <h3>Stargazing Guide</h3>
+            <h3 class="font-google2">Stargazing Guide</h3>
             <p><em>Stargazing is a calming and fun activity to most, but how do you do it? Go into your garden, and look up at the night sky. That’s how easy it starts. You might be wondering, what now?</p></em> 
 
                 If you want to know what you are looking at, you can use multiple tools to learn. Remembering what is where, will give a sense of satisfaction. There are apps that use Augmented Reality to show you what is there, maps for the sky called planispheres and light pollution maps, magazines talking about what is where and when and star atlasses.  
@@ -95,29 +154,31 @@
             </div>
         </div>
 
-        <div class="col-4" id=con_top>
+        <div class="col-12 col-sm-4" id=con_top>
             <div class="conbox conbox1">
-                <h3>Vacuum decay: the ultimate catastrophe</h3>
+                <h3 class="font-google2">Vacuum decay: the ultimate catastrophe</h3>
                 <p>Every once in a while, physicists come up with a new way to destroy the Universe. There’s the <a href=# class=link>Big Rip</a>  (a rending of spacetime), the <a href=# class=link>Heat Death</a> (expansion to a cold and empty Universe), and the <a href=# class=link>Big Crunch</a> (the reversal of cosmic expansion)Like an electric field, the Higgs field varies in strength, based on its potential. Think of the potential as a track on which a ball is rolling. The higher it is on the track, the more energy the ball has. The Higgs potential determines whether the Universe is in one of two states: a true vacuum, or a false vacuum. A true vacuum is the stable, lowest-energy state, like sitting still on a valley floor. A false vacuum is like being nestled in a divot in the valley wall – a little push could easily send you tumbling. A universe in a false vacuum state is called...</p>
                 <img class="img1" src="slike/3.jpg" width="400px">
                 
             </div>
         </div>
     </div>
-    
+
+    <div id=spacer2></div>
+
     <div class="row">
         <div class="col-12">
             <div class="conbox">
-                <h3 id="second_con">Astronomical engineering</h3>
+                <h3 id="second_con" class="font-google2">Astronomical engineering</h3>
                 <p>Engineering on an astronomical scale, or astronomical engineering, i.e., engineering involving operations with whole astronomical objects (planets, stars, etc.), is a known theme in science fiction, as well as a matter of recent scientific research and exploratory engineering.
 
                     In the Kardashev scale, Type II and Type III civilizations can harness energy on the required scale. This can allow them to construct <span>megastructures.</span>
                 </p>
                 <hr>
-                <h3>Exploratory engineering</h3>
+                <h3 class="font-google2">Exploratory engineering</h3>
                 <p>Exploratory engineering is a term coined by K. Eric Drexler to describe the process of designing and analyzing detailed hypothetical models of systems that are not feasible with current technologies or methods, but do seem to be clearly within the bounds of what science considers to be possible within the narrowly defined scope of operation of the hypothetical system model. It usually results in paper or video prototypes, or (more likely nowadays) computer simulations that are as convincing as possible to those that know the relevant science, given the lack of experimental confirmation. By analogy with protoscience, it might be considered a form of protoengineering. </p>
                 <hr>
-                <h3>Terraforming</h3>
+                <h3 class="font-google2">Terraforming</h3>
                 <p>Terraforming or terraformation (literally, "Earth-shaping") is the hypothetical process of deliberately modifying the atmosphere, temperature, surface topography or ecology of a planet, moon, or other body to be similar to the environment of Earth to make it habitable by Earth-like life.
 
                     The concept of terraforming developed from both science fiction and actual science. Carl Sagan, an astronomer, proposed the planetary engineering of Venus in 1961, which is considered one of the first accounts of the concept. The term was coined by Jack Williamson in a science-fiction short story ("Collision Orbit") published in 1942 in Astounding Science Fiction, although terraforming in popular culture may predate this work.</p>
@@ -131,13 +192,14 @@
         </div>
     </div>
 
-
+<div id=spacer2></div>
 
     <div class="row">
         <div class="col-12">
             <div class="conbox overflow-x con2">
-                <div class="col-6" style="overflow-x: auto;">
-                <h1>Closest Stars</h1>
+                <div class="row">
+                <div class="col-12 col-sm-6" style="overflow-x: auto;">
+                <h1 class="font-google2">Closest Stars</h1>
                 <table>
                     <tr>
                         <td>Star</td>
@@ -175,41 +237,35 @@
                     </tr>
                 </table>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-sm-2">
                     <img src="slike/7.jpg" class="img4" width="300px" height="300px">
                 </div>
                 
-                <div class="col-2">    
+                <div class="col-12 col-sm-2">    
                     <img src="slike/8.jpg" class="img4" width="300px" height="300px">
                 </div>    
-                <div class="col-2">    
+                <div class="col-12 col-sm-2">    
                     <img src="slike/9.jpg" class="img4" width="300px" height="300px">
                 </div>
                 </div>
-
+            </div>
             </div>
         </div>
     </div>
     </div>
 
+    <div id=spacer2></div>
 
     <footer id=main-footer>
-                    <p id="footer-info">
+                    <p id="footer-info" style="padding-bottom: 0px;">
                     Designed by Mario Vata JMBAG: 0246100824
-                    
-                    
-                    <!-- <a href="https://www.github.com/mariovata/" class="fa fa-github">
-                    <span>Github</span> -->
-
                     <a id=third_con href="https://www.instagram.com/mariovata331/" class="fa fa-instagram footer-links"></a>
                     <a href="https://www.github.com/mariovata/" class="fa fa-github footer-links"></a>
-                    <a href="https://www.linkedin.com/in/mario-vata/" class="fa fa-linkedin footer-links"></a>  
-                    
-                    <!-- <a href="https://www.instagram.com/mariovata331/" class="fa fa-instagram">
-                    <span>Instagram</span> -->
-                    
-                    
+                    <a href="https://www.linkedin.com/in/mario-vata/" class="fa fa-linkedin footer-links"></a>
                     </p>                    
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

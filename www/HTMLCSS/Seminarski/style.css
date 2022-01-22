@@ -1,29 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+.font-google2{
+    font-family: 'Racing Sans One', cursive;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
   }
 
+.bg-mymenu {
+    background-color: #c6d8fa !important;
+}
+
 html, body {
     height: 100%;
-  }  
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-    
   }
+.navbar {  
+  position: fixed !important;
+  top: 50px !important;
+} 
+
+#spacer2 {
+    min-height: 50px;
+}
+
+.imgNew {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 200px;
+    border-radius: 20px;
+    
+}
 
 #main-footer {
     clear: both;
@@ -223,7 +234,7 @@ a.fa:nth-child(7) {
 
 @media (min-width: 800px){
 
-    .col-1 {width: 8.33%;}
+    /* .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
     .col-4 {width: 33.33%;}
@@ -234,13 +245,7 @@ a.fa:nth-child(7) {
     .col-9 {width: 75%;}
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-    
-  }
+    .col-12 {width: 100%;} */
 
 #main {
     margin-left: 0;
@@ -326,6 +331,7 @@ ul {
 .menu-item-contact > a > span {
     font-size: 2em;
     font-family: sans-serif;
+    margin: 20px;
 }
 
 .menu-item-contact {
@@ -411,8 +417,12 @@ p {
 }
 
 .conbox1{
-    min-height: 600px;
-    
+    min-height: 600px;   
+}
+
+.conbox2{
+    min-height: 500px;
+    max-height: 500px;   
 }
 
 
@@ -451,6 +461,7 @@ p {
 
     .title {
         text-align: center;
+        min-height: 50px;
        }
        
 
@@ -580,8 +591,11 @@ p {
     }
     
     .conbox1{
-        min-height: 550px;
-        
+        min-height: 550px;   
+    }
+
+    .conbox2{
+        min-height: 450px;   
     }
     
     .img_mid{
