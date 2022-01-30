@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navi {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: white;
+}
+
+.nav {
+    background-color: black;
+}
+
+nav {
+    padding: 5px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;  
+}
+
+
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.prvi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    max-width: 450px;
+}
+
+.drugi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    width: 50%;
+}
+
+p, h2 {
+    padding: 5px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.cona {
+    background-color: plum;
+}
+
+.conb {
+    background-color: darkkhaki;
+}
+
+.conc {
+    background-color: gold;
+}
+
+.cond {
+    background-color: burlywood;
+}
+
+.conf {
+    background-color: grey;
+}
+
+@media (max-width: 799px) {
+    .navi {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white; 
+        flex-direction: column;
+    }
+
+    li { 
+        padding: 15px;
+    }
+    
+    li.link:nth-child(3) {
+        order: 1;
+       }
+    li.link:nth-child(1) {
+        order: 2;
+       }
+    li.link:nth-child(2) {
+        order: 3;
+       }
+    li.link:nth-child(4) {
+        order: 4;
+       }
+
+    .prvi {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        max-width: 799px;
+    }
+    
+    .drugi {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+    .main {
+        flex-direction: column;
+    }
+                
+}
