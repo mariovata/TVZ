@@ -3,6 +3,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
 .cont {
     max-width: 1000px;
     margin: 0 auto;
@@ -137,4 +142,71 @@ h3 {
 
 .a {
     border-left: #f6c343 solid 6px;
+}
+
+.mobi {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 799px){
+    
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    i.fas:nth-child(3) {
+        order: 1;
+       }
+    
+    li:nth-child(1) {
+        order: 2;
+       }
+    li:nth-child(2) {
+        order: 3;
+    }
+    
+    li:nth-child(4) {
+        order: 4;
+    }
+    
+    li:nth-child(5) {
+        order: 5;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mobi {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .a, .b, .c, .d, .f {
+        width: 100%;
+        border: #f6c343 solid 6px;
+    }
+
+    .a, .b, .c, .d{
+        border-bottom: #f6c343 solid 1px;
+    }
+
 }
