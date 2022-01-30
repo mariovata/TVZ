@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+i.fas:nth-child(3) {
+    font-size: 2em;
+    color: #f6c343;
+}
+   
+
+.orange1 {
+    background-color: #f6c343;
+    max-height: 400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.fix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6c343;
+    font-size: 3em;
+}
+
+.content1 {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 75px;
+
+}
+
+.bg {
+    background-color: #fef6e3;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.nail {
+    background-color: #f6c343;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-size: 3em;
+    border-radius: 10px;
+}
+
+p,h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3 {
+    color: #f6c343;
+}
+
+.bg2 {
+    background-color: #fef6e3;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.part {
+    width: 33.33%;
+    border: #f6c343 solid 3px;
+    border-collapse: collapse;
+}
+
+.d {
+    width: 66.66%;
+    border-left: #f6c343 solid 6px;
+    border-bottom: #f6c343 solid 6px;
+}
+
+.f {
+    border-right: #f6c343 solid 6px;
+    border-bottom: #f6c343 solid 6px;
+}
+
+.a, .b ,.c {
+    border-top: #f6c343 solid 6px;
+}
+
+.c {
+    border-right: #f6c343 solid 6px;
+}
+
+.a {
+    border-left: #f6c343 solid 6px;
+}
