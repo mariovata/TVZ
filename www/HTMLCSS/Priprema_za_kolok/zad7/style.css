@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.img1 {
+    background-image: url(img/section-bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 485px;
+}
+
+.img2 {
+    width: 130px;
+    margin: 0 auto;
+}
+
+.mycont {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.mycont2 {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg1 {
+    border-bottom: solid yellowgreen 3px;
+}
+
+.white {
+    color: white;
+}
+
+.space {
+    margin-top: 150px;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+}
+
+
+.fix1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img3 {
+    background-image: url(img/bg-map.png);
+    background-repeat: no-repeat;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+i {
+    color: white;
+    font-size: 2em;
+}
+
+.social {
+    display: flex;
+    padding: 25px;
+}
