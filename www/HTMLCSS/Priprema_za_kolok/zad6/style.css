@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 25px 0 25px 0;
+}
+
+body {
+    margin: 0;
+}
+
+
+.top {
+    position: relative;
+    background-image: url(images/slider/bg1.jpg);
+    display: flex;
+    height: 850px;
+    background-size: cover;
+    justify-content: space-between
+}
+
+.nav-l , .nav-r {
+    background-color: #186f89e1;
+    height: 80px;
+    position: relative;
+    top: 200px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    color: white;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.mid {
+    background-color: #75b370;
+    
+    min-height: 453px;
+    display: flex;
+}
+
+.tick {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    bottom: 100px;
+    padding: 25px;
+}
+
+.mid-l {
+    background-image: url(images/guitar2.jpg);
+    min-height: 453px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mid-r {
+    background-image: url(images/about-bg.jpg);
+    min-height: 453px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bot {
+    background-image: url(images/performar-bg.jpg);
+    height: fit-content;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item2 {
+    padding: 10px;
+}
+
+.fix {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-left: 2.2em;
+}
+
+.btn {
+    background-color: #75aa57;
+    border: #8aaa75;
+    height: 40px;
+    padding: 10px;
+    color: white;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
