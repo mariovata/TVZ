@@ -5,7 +5,7 @@
 [HTML Pripreme Web](https://lively-hill-0dadebe10.azurestaticapps.net/)
 
 
-Korisni linkovi:
+Korisni linkovi:  
 https://www.internetingishard.com/html-and-css/  
 https://getbootstrap.com/docs/5.0/getting-started/introduction/  
 https://www.w3schools.com/  
